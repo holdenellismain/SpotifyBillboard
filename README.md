@@ -3,7 +3,7 @@
 ## Goals
 
 - Obtain a dataset from Spotify with characteristics for the top songs from every Billboard Hot 100 week since 1958
-- Analyze the dataset for patterns
+- Analyze the dataset and create visuals
 - Find plausible explanations for patterns in the data
 
 ## Skills/Tools Used
@@ -15,8 +15,8 @@
 - Creating charts in Excel
 
 ## Steps
-1. Read in lines from [the raw data csv file](modifiedbillboarddata.csv)
-2. Clean the raw data to be able to search for the [Spotify ID](https://developer.spotify.com/documentation/web-api/concepts/spotify-uris-ids) of each song 
+1. Read in lines from the the raw data [csv](modifiedbillboarddata.csv)
+2. Clean the raw data to be able to [search](https://developer.spotify.com/documentation/web-api/reference/search) for the [Spotify ID](https://developer.spotify.com/documentation/web-api/concepts/spotify-uris-ids) of each song 
     - remove_feature() and clean_song_title() functions
     - log if feature was removed so that data can be tracked
 3. Save a list of song ids for each chart week and then [query](https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features) and average data
