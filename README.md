@@ -22,6 +22,7 @@
 3. Save a list of song ids for each chart week and then [query](https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features) and average data
     - done by average_attributes() function
 4. Write row for the week's average values in the output csv (result can be found [here](billboard_data.xlsx))
+*More detail can be found in the [python code](python) documentation.*
 
 ## Conclusions
 
@@ -52,6 +53,6 @@ The charts are dominated by Christmas music in December and at the start of Janu
 
 ## Sources
 
-- Billboard Hot 100 Historical Data [UT Data](https://github.com/utdata/rwd-billboard-data)
-- TikTok Popularity [Google Trends](https://trends.google.com/trends/explore?date=all&geo=US&q=tiktok&hl=en)
-- Individual Billboard Weeks [Billboard](https://www.billboard.com/charts/hot-100/)
+- Billboard Hot 100 Historical Data - [UT Data](https://github.com/utdata/rwd-billboard-data)
+- TikTok Popularity - [Google Trends](https://trends.google.com/trends/explore?date=all&geo=US&q=tiktok&hl=en)
+- Individual Billboard Weeks - [Billboard](https://www.billboard.com/charts/hot-100/)
