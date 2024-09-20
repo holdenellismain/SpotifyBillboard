@@ -17,10 +17,10 @@
 ## Steps
 1. Read in lines from the the raw data [csv](modifiedbillboarddata.csv)
 2. Clean the raw data to be able to [search](https://developer.spotify.com/documentation/web-api/reference/search) for the [Spotify ID](https://developer.spotify.com/documentation/web-api/concepts/spotify-uris-ids) of each song 
-    - remove_feature() and clean_song_title() functions
+    - `remove_feature()` and `clean_song_title()` functions
     - log if feature was removed so that data can be tracked
 3. Save a list of song ids for each chart week and then [query](https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features) and average data
-    - done by average_attributes() function
+    - done by `average_attributes()` function
     - list method reduces GET requests from 20/chart week to 11
 4. Write row for the week's average values in the output csv (result can be found [here](billboard_data.xlsx))
 <br> *More detail can be found in my [Python code](python) documentation.*
